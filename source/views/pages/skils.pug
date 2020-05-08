@@ -1,0 +1,14 @@
+extends ../layouts/simpel.layout.pug
+block content
+    H1 Властивості
+    -
+        var skil = [
+            "довжина",
+            "висота",
+            "ширина"
+        ]
+    ul
+        each item in skil
+            li #{item}
+    li Кінець! 
+    

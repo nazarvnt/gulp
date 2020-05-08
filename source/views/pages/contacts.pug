@@ -1,0 +1,25 @@
+extends ../layouts/simpel.layout.pug
+block content
+    -
+        var list = [
+        {
+            "title" : "nazarvnt@gmail.com",
+            "link" : "mailto:nazarvnt@gmail.com"
+        },
+        {
+            "title" : "0973296920",
+            "link" :  "tel:0973296920"
+        },
+        {
+            "title" : "nazar venhreniuk",
+            "link" : "tg://resolve?domain=NazarVNT"
+        },
+        {
+            "title" : "nazarVNT",
+            "link" : "skype:nazaricons"
+        }       
+        ]
+    ul
+        each item in list
+            li
+                a(href=item.link) #{item.title}
