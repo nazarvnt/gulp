@@ -19,7 +19,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-cleancss": "^0.2.2",
     "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "browserslist": [
     "> 0.5%, last 2 versions, Firefox ESR, not dead"
